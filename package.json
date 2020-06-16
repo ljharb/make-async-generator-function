@@ -1,7 +1,12 @@
 {
 	"name": "make-async-generator-function",
 	"version": "0.0.0",
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"funding": {
+		"url": "https://github.com/sponsors/ljharb"
+	},
 	"description": "Function that returns an arbitrary async generator function, or undefined if async generator syntax is unsupported.",
+	"license": "MIT",
 	"main": "index.js",
 	"exports": {
 		".": "./index.js",
@@ -22,8 +27,6 @@
 		"generator",
 		"async generator"
 	],
-	"author": "Jordan Harband <ljharb@gmail.com>",
-	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/ljharb/make-async-generator-function/issues"
 	},
