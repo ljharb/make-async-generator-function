@@ -1,0 +1,34 @@
+{
+	"name": "make-async-generator-function",
+	"version": "0.0.0",
+	"description": "Function that returns an arbitrary async generator function, or undefined if async generator syntax is unsupported.",
+	"main": "index.js",
+	"exports": {
+		".": "./index.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ljharb/make-async-generator-function.git"
+	},
+	"keywords": [
+		"function",
+		"generator function",
+		"async generator function",
+		"async function",
+		"generator",
+		"async generator"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ljharb/make-async-generator-function/issues"
+	},
+	"homepage": "https://github.com/ljharb/make-async-generator-function#readme",
+	"engines": {
+		"node": ">= 0.4"
+	}
+}
