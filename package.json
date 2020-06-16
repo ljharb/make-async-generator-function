@@ -13,7 +13,11 @@
 		"./package.json": "./package.json"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"tests-only": "tape 'test/**'",
+		"test": "npm run tests-only",
+		"posttest": "npx aud --production"
 	},
 	"repository": {
 		"type": "git",
@@ -31,6 +35,13 @@
 		"url": "https://github.com/ljharb/make-async-generator-function/issues"
 	},
 	"homepage": "https://github.com/ljharb/make-async-generator-function#readme",
+	"devDependencies": {
+		"@ljharb/eslint-config": "^17.1.0",
+		"array.prototype.map": "^1.0.2",
+		"aud": "^1.1.2",
+		"eslint": "^7.2.0",
+		"tape": "^5.0.1"
+	},
 	"engines": {
 		"node": ">= 0.4"
 	}
