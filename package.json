@@ -13,6 +13,7 @@
 		"./package.json": "./package.json"
 	},
 	"scripts": {
+		"prepublish": "safe-publish-latest",
 		"lint": "eslint .",
 		"pretest": "npm run lint",
 		"tests-only": "tape 'test/**'",
@@ -43,6 +44,7 @@
 		"aud": "^1.1.2",
 		"auto-changelog": "^2.1.0",
 		"eslint": "^7.2.0",
+		"safe-publish-latest": "^1.1.4",
 		"tape": "^5.0.1"
 	},
 	"engines": {
