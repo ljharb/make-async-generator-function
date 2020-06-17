@@ -1,4 +1,4 @@
-#make-async-generator-function <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
+# make-async-generator-function <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
 [![Build Status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
