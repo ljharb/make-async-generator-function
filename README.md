@@ -1,6 +1,7 @@
 # make-async-generator-function <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
-[![Build Status][travis-svg]][travis-url]
+[![github actions][actions-image]][actions-url]
+[![coverage][codecov-image]][codecov-url]
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
@@ -24,8 +25,6 @@ Simply clone the repo, `npm install`, and run `npm test`
 
 [package-url]: https://npmjs.org/package/make-async-generator-function
 [npm-version-svg]: http://versionbadg.es/ljharb/make-async-generator-function.svg
-[travis-svg]: https://travis-ci.org/ljharb/make-async-generator-function.svg
-[travis-url]: https://travis-ci.org/ljharb/make-async-generator-function
 [deps-svg]: https://david-dm.org/ljharb/make-async-generator-function.svg
 [deps-url]: https://david-dm.org/ljharb/make-async-generator-function
 [dev-deps-svg]: https://david-dm.org/ljharb/make-async-generator-function/dev-status.svg
@@ -35,4 +34,7 @@ Simply clone the repo, `npm install`, and run `npm test`
 [license-url]: LICENSE
 [downloads-image]: http://img.shields.io/npm/dm/make-async-generator-function.svg
 [downloads-url]: http://npm-stat.com/charts.html?package=make-async-generator-function
-
+[codecov-image]: https://codecov.io/gh/ljharb/make-async-generator-function/branch/main/graphs/badge.svg
+[codecov-url]: https://app.codecov.io/gh/ljharb/make-async-generator-function/
+[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/ljharb/make-async-generator-function
+[actions-url]: https://github.com/ljharb/make-async-generator-function/actions
