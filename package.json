@@ -40,14 +40,14 @@
 	},
 	"homepage": "https://github.com/ljharb/make-async-generator-function#readme",
 	"devDependencies": {
-		"@ljharb/eslint-config": "^17.6.0",
-		"array.prototype.map": "^1.0.3",
+		"@ljharb/eslint-config": "^18.0.0",
+		"array.prototype.map": "^1.0.4",
 		"aud": "^1.1.5",
-		"auto-changelog": "^2.2.1",
-		"eslint": "^7.26.0",
+		"auto-changelog": "^2.3.0",
+		"eslint": "^7.32.0",
 		"nyc": "^10.3.2",
-		"safe-publish-latest": "^1.1.4",
-		"tape": "^5.2.2"
+		"safe-publish-latest": "^1.1.5",
+		"tape": "^5.3.1"
 	},
 	"engines": {
 		"node": ">= 0.4"
