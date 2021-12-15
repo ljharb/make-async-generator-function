@@ -5,7 +5,6 @@ var map = require('array.prototype.map');
 var asyncGenerators = require('../')();
 
 test('async generators supported', { skip: asyncGenerators.length === 0 }, function (t) {
-	/* globals Promise */
 	return Promise.all(map(asyncGenerators, function (asyncGenFunction) {
 		t.comment('asyncGenFunction: `' + asyncGenFunction + '`');
 		t.equal(typeof asyncGenFunction, 'function', 'asyncGenFunction is function');
